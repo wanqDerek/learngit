@@ -7,6 +7,6 @@ begin
        dbms_output.putline('add a new line');
    end if;
 exception
-when no_data_found then
+ when no_data_found then
    dbms_output.putline('please check the table dept,tks');
 end;
