@@ -1,5 +1,5 @@
 declare
-   v_count number;
+   v_count number; --计算器
 begin
    select count(*) into v_count from dept where deptid = '12';
    if v_count>1 then
